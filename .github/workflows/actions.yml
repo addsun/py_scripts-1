@@ -67,9 +67,9 @@ jobs:
     # TextNow保号任务
     - name: textnow protect number
       env:
-        TEXTNOW_USERNAME: ${{somesky}}
-        TEXTNOW_PASSWORD: ${{aver123321}}
-        TEXTNOW_NUMBER: ${{(650) 488-1895}}
-        TEXTNOW_MSG: ${{hi}}
+        TEXTNOW_USERNAME: somesky
+        TEXTNOW_PASSWORD: aver123321
+        TEXTNOW_NUMBER: (650) 488-1895
+        TEXTNOW_MSG: hi
       run: |
         python scripts/_textnow.py
